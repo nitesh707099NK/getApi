@@ -6,10 +6,14 @@ app.use(express.json());
 
 
 
+
 let users = [
     { id: 1, name: "nitesh", email: "nitesh@gmail.com" },
     { id: 2, name: "sani", email: "sani@gmail.com" },
-    { id: 3, name: "sumit", email: "sumit@gmail.com" }
+    { id: 3, name: "sumit", email: "sumit@gmail.com" },
+    { id: 4, name: "manish", email: "nmahh@gmail.com" },
+    { id: 5, name: "karan", email: "sdmd@gmail.com" },
+    { id: 6, name: "sumita", email: "sudjben@gmail.com" }
 ];
 
 app.post('/nitesh',(req,res)=>{
